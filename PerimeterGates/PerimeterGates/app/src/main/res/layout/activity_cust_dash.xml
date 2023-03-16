@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.CustDash">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/gates"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Gates"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/grills"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gates"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginBottom="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Grills"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/door"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grills"
+                android:layout_margin="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Heavy Duty Doors"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/windows"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/door"
+                android:layout_margin="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Windows"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/shoe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/windows"
+                android:layout_margin="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Shoe racks"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shoe"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginBottom="5sp"
+                android:background="@color/secondary"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="Send Personal Requirement"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

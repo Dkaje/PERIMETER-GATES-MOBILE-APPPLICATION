@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+    <EditText
+        android:id="@+id/mpesa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:defaultFocusHighlightEnabled="true"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        android:hint="MPESA CODE"
+        android:inputType="textCapCharacters"
+        android:maxLength="10"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mpesa"
+        android:background="@color/secondary"
+        android:text="Submit payment details"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

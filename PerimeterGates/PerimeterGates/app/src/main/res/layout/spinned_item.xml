@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+            <Spinner
+                android:id="@+id/spinType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp" />
+
+            <Spinner
+                android:id="@+id/spinMat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinType"
+                android:layout_marginTop="5sp" />
+
+            <Button
+                android:id="@+id/btnType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinMat"
+                android:layout_marginTop="10sp"
+                android:text="Click For Dimensions" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnType"
+                android:layout_marginTop="10sp"
+                android:id="@+id/linear"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:hint="enter Height"
+                    android:inputType="number"
+                    android:maxLength="5" />
+
+                <EditText
+                    android:id="@+id/editlen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:hint="enter Length"
+                    android:inputType="number"
+                    android:maxLength="5" />
+
+                <EditText
+                    android:id="@+id/editWei"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:hint="enter Leaf weight"
+                    android:inputType="number"
+                    android:maxLength="5" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinCoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_marginTop="5sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

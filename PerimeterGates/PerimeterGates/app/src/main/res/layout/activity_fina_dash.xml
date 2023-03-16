@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10sp"
+    android:layout_height="match_parent"
+    tools:context=".Finance.FinaDash">
+<LinearLayout
+    android:id="@+id/myPays"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10sp"
+    android:background="@drawable/reptile"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/fina"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="16sp"
+        android:text="PAYMENT"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cusOrders"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/reptile"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/bell" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="ORDERS"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/PaySupplier"
+        android:layout_below="@+id/myPays"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:padding="10sp"
+        android:visibility="visible"
+        android:background="@drawable/reptile"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/fina"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textSize="16sp"
+            android:text="SUPPLIER"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/myAcocunt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/myPays"
+        android:layout_alignParentEnd="true"
+        android:padding="10sp"
+        android:visibility="gone"
+        android:background="@drawable/reptile"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/fina"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textSize="16sp"
+            android:text="ACCOUNT"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>

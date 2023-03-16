@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6E6262"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/txtMpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="Enter MPESA"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/mpesa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMpesa"
+        android:layout_marginTop="20sp"
+        android:defaultFocusHighlightEnabled="true"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        android:hint="MPESA CODE"
+        android:inputType="textCapCharacters"
+        android:maxLength="10"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+</RelativeLayout>

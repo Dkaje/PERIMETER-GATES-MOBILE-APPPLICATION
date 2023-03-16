@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.perimetergates">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gating"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gating"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Finance.SuppPay"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Inventory.Replied"
+            android:exported="false"
+            android:parentActivityName=".Inventory.Feedback" />
+        <activity
+            android:name=".Finance.OrderApproved"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Finance.RejectedPay"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Finance.ApprovedDire"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Customer.Message"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.FeedBack"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Customed"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Driver.SpeciedHistory"
+            android:exported="false"
+            android:parentActivityName=".Driver.SpeciedShip" />
+        <activity
+            android:name=".Driver.SpeciedShip"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriveDash" />
+        <activity
+            android:name=".Driver.ReadyShip"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriveDash" />
+        <activity
+            android:name=".Inventory.SpecifiedHistory"
+            android:exported="false"
+            android:parentActivityName=".Inventory.SpecifiedOrder" />
+        <activity
+            android:name=".Inventory.SpecifiedOrder"
+            android:exported="false"
+            android:parentActivityName=".Inventory.DispatcherModule" />
+        <activity
+            android:name=".Inventory.DispatcherModule"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BlackSmith.NewOrders"
+            android:exported="false"
+            android:parentActivityName=".BlackSmith.BlackDash" />
+        <activity
+            android:name=".Finance.NewActivity"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Finance.OrderHistory"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Finance.OrderYes"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Inventory.SupplyHist"
+            android:exported="false"
+            android:parentActivityName=".Inventory.Supply" />
+        <activity
+            android:name=".Inventory.Feedback"
+            android:exported="false"
+            android:parentActivityName=".Inventory.InventDash" />
+        <activity
+            android:name=".Customer.DeliHistory"
+            android:exported="false"
+            android:parentActivityName=".Customer.Delivery" />
+        <activity
+            android:name=".Inventory.ShipHistory"
+            android:exported="false"
+            android:parentActivityName=".Inventory.Shipping" />
+        <activity
+            android:name=".Customer.HistoryPay"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Cart"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.ShoeRack"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Grills"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Windows"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Door"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Gates"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".BlackSmith.BlackHistory"
+            android:exported="false"
+            android:parentActivityName=".BlackSmith.BlackDash" />
+        <activity
+            android:name=".Customer.Delivery"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Payment"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash" />
+        <activity
+            android:name=".Customer.Receipt"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Finance.RecordKeeping"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash" />
+        <activity
+            android:name=".Finance.PayHistory"
+            android:exported="false"
+            android:parentActivityName=".Finance.NewActivity" />
+        <activity
+            android:name=".Driver.DriveHistory"
+            android:exported="false"
+            android:parentActivityName=".Driver.ReadyShip" />
+        <activity
+            android:name=".Suplier.ExpectedPay"
+            android:exported="false"
+            android:parentActivityName=".Suplier.SuppDash" />
+        <activity
+            android:name=".Suplier.SuppHistory"
+            android:exported="false"
+            android:parentActivityName=".Suplier.SuppDash" />
+        <activity
+            android:name=".Inventory.Requirements"
+            android:exported="false"
+            android:parentActivityName=".Inventory.InventDash" />
+        <activity
+            android:name=".Inventory.Shipping"
+            android:exported="false"
+            android:parentActivityName=".Inventory.DispatcherModule" />
+        <activity
+            android:name=".Inventory.Supply"
+            android:exported="false"
+            android:parentActivityName=".Inventory.InventDash" />
+        <activity
+            android:name=".Inventory.Stock"
+            android:exported="false"
+            android:parentActivityName=".Inventory.InventDash" />
+        <activity
+            android:name=".Suplier.SuppDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Suplier.SuppReg"
+            android:exported="false"
+            android:parentActivityName=".Suplier.SuppLog" />
+        <activity
+            android:name=".Suplier.SuppLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Inventory.InventDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Inventory.InventReg"
+            android:exported="false"
+            android:parentActivityName=".Inventory.InvenLog" />
+        <activity
+            android:name=".Inventory.InvenLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Finance.FinaDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Finance.Finareg"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaLog" />
+        <activity
+            android:name=".Finance.FinaLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Driver.DriveDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Driver.DriveReg"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriveLog" />
+        <activity
+            android:name=".Driver.DriveLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Customer.CustDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Customer.CustReg"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustLog" />
+        <activity
+            android:name=".Customer.CustLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BlackSmith.BlackDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BlackSmith.BlackReg"
+            android:exported="false"
+            android:parentActivityName=".BlackSmith.BlackLog" />
+        <activity
+            android:name=".BlackSmith.BlackLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

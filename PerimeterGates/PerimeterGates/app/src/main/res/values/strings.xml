@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Perimeter Gates</string>
+    <string name="title">PERIMETER GATES\nOur Contacts are:\nperimetergates1@gmail.com \nExtra work contacts : 0720862935, 0714056910</string>
+    <string-array name="Black">
+        <item>BlackSmith</item>
+    </string-array>
+    <string-array name="Finance">
+        <item>Finance</item>
+    </string-array>
+    <string name="numbers">[0–9]</string>
+    <string name="upper">[A-Z]</string>
+    <string-array name="Best">
+        <item>Select Category</item>
+        <item>Gates</item>
+        <item>Grills</item>
+        <item>Doors</item>
+        <item>Windows</item>
+    </string-array>
+    <string-array name="Product">
+        <item>Select Category</item>
+        <item>Gates</item>
+        <item>Grills</item>
+        <item>Doors</item>
+        <item>Windows</item>
+        <item>Shoe Rack</item>
+    </string-array>
+    <string-array name="Inve">
+        <item>Inventory</item>
+    </string-array>
+    <string-array name="Majors">
+        <item>Select Type</item>
+        <item>Swing</item>
+        <item>Vertical Lift</item>
+        <item>Vertical Pivot</item>
+        <item>Bi-Folding</item>
+        <item>Railed</item>
+    </string-array>
+    <string-array name="Grills">
+        <item>Select Type</item>
+        <item>Stair Grills</item>
+        <item>Balcony Posts</item>
+    </string-array>
+    <string-array name="Shoe">
+        <item>Heavy Shoe Rack</item>
+    </string-array>
+    <string-array name="Category">
+        <item>Select Category</item>
+        <item>Metal</item>
+        <item>Coating</item>
+        <item>Clothing</item>
+        <item>Marking Tools</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Metal">
+        <item>Select Material</item>
+        <item>Aluminium</item>
+        <item>Iron</item>
+        <item>Steel</item>
+    </string-array>
+    <string-array name="Coating">
+        <item>Select Coating</item>
+        <item>Oil Based</item>
+        <item>Alkyd Paints</item>
+    </string-array>
+    <string-array name="Clothing">
+        <item>Select Type</item>
+        <item>Welding Helmet</item>
+        <item>Welding Jacket</item>
+        <item>Welding Gloves</item>
+        <item>Safety Glasses</item>
+        <item>Grinding Visor</item>
+        <item>Steel Boots</item>
+    </string-array>
+    <string-array name="Marking">
+        <item>Select Type</item>
+        <item>Soap Stone</item>
+        <item>Permanent Marker</item>
+        <item>Scribes</item>
+    </string-array>
+    <string-array name="Others">
+        <item>Select Type</item>
+        <item>Angle Grinder</item>
+        <item>Welding Wire</item>
+        <item>Welding Magnets</item>
+        <item>Welding Clangs</item>
+        <item>Squaring Tools</item>
+        <item>Welding Pliers</item>
+        <item>Steel Wire Brush</item>
+        <item>Clipping Hammer</item>
+        <item>Fire Extinguisher</item>
+    </string-array>
+    <string name="Abt">
+        PERIMETER GATES\n\nPerimeter gates bypass limited has over 20 yrs experience designing and building wrought iron driveway gates, garden gates, grills and heavy duty doors to customer requirements.\n\nOur gates and metal fencing are made to a very high standard and will add that finishing touch and additional security to your property\n\n
+        Our Contacts are:\n\n perimetergates1@gmail.com \nExtra work contacts : 0720862935, 0714056910
+    </string>
+    <string name="Faq">
+    <u><big><b>How to Sign up &amp; Login</b></big></u>
+    \n
+    •	Click your respective Card from the home screen.
+    \n
+    •	Enter your yor personal details and hit submit buton.
+    \n
+    •	Once your account has been approved by the admin, you will be in a position to login into your dashboard
+    \n
+    <u> <big><b>HOW TO ORDER PRODUCT</b></big></u>\n
+    <u> <b>Click Add to Cart</b></u>
+    \n
+    •	make Payment.
+    \n
+    •	For Shipped deliveries, a driver will ship your product as per the location your provide while making payment.
+    \n
+    •	The system allows a customer to order a product by providing personal specifications.
+    \n
+    •	For custom products, click on the custom delivery to confirm and give us a feedback.
+    \n
+    </string>
+    <string-array name="City">
+        <item>Select Location</item>
+        <item>Kirinyaga</item>
+        <item>Embu</item>
+        <item>Muranga</item>
+        <item>Nyeri</item>
+        <item>Kiambu</item>
+        <item>Nyandarua</item>
+        <item>Meru</item>
+        <item>Nairobi</item>
+        <item>Mombasa</item>
+        <item>Garissa</item>
+        <item>Tharaka Nithi</item>
+        <item>Bomet</item>
+        <item>Nyamira</item>
+        <item>Siaya</item>
+        <item>Homabay</item>
+        <item>Makueni</item>
+        <item>Machakos</item>
+        <item>Kilifi</item>
+        <item>Nakuru</item>
+        <item>Laikipia</item>
+        <item>Kakamega</item>
+        <item>Bungoma</item>
+        <item>Kitui</item>
+        <item>Kisii</item>
+        <item>Tana River</item>
+        <item>Taita Taveta</item>
+        <item>Wajir</item>
+        <item>Kwale</item>
+        <item>Mandera</item>
+        <item>Isiolo</item>
+        <item>Marsabit</item>
+        <item>Turkana</item>
+        <item>Narok</item>
+        <item>Kajiando</item>
+        <item>Kericho</item>
+        <item>Vihiga</item>
+        <item>Migori</item>
+        <item>Kisumu</item>
+        <item>Baringo</item>
+        <item>Nandi</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Samburu</item>
+        <item>West Pokot</item>
+        <item>Trans Nzoia</item>
+    </string-array>
+    <string-array name="Location">
+        <item>Current Location</item>
+        <item>Kirinyaga</item>
+        <item>Embu</item>
+        <item>Muranga</item>
+        <item>Nyeri</item>
+        <item>Kiambu</item>
+        <item>Nyandarua</item>
+        <item>Meru</item>
+        <item>Nairobi</item>
+        <item>Mombasa</item>
+        <item>Garissa</item>
+        <item>Tharaka Nithi</item>
+        <item>Bomet</item>
+        <item>Nyamira</item>
+        <item>Siaya</item>
+        <item>Homabay</item>
+        <item>Makueni</item>
+        <item>Machakos</item>
+        <item>Kilifi</item>
+        <item>Nakuru</item>
+        <item>Laikipia</item>
+        <item>Kakamega</item>
+        <item>Bungoma</item>
+        <item>Kitui</item>
+        <item>Kisii</item>
+        <item>Tana River</item>
+        <item>Taita Taveta</item>
+        <item>Wajir</item>
+        <item>Kwale</item>
+        <item>Mandera</item>
+        <item>Isiolo</item>
+        <item>Marsabit</item>
+        <item>Turkana</item>
+        <item>Narok</item>
+        <item>Kajiando</item>
+        <item>Kericho</item>
+        <item>Vihiga</item>
+        <item>Migori</item>
+        <item>Kisumu</item>
+        <item>Baringo</item>
+        <item>Nandi</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Samburu</item>
+        <item>West Pokot</item>
+        <item>Trans Nzoia</item>
+    </string-array>
+</resources>

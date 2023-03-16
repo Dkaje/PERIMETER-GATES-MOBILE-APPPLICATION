@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_expected_pay.xml" value="0.25" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_history_pay.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_invent_dash.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_receipt.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_shipping.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/activity_supp_pay.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/demo.xml" value="0.25" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/follow_up.xml" value="0.25" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/nice_recipt.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/paye.xml" value="0.25" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/special.xml" value="0.13272543059777103" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/sup_upload.xml" value="0.25" />
+        <entry key="..\:/PerimeterGates/app/src/main/res/layout/yess.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/drawable-v24/arra.xml" value="0.1" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/drawable-v24/circlebackgroundblue.xml" value="0.1" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_approved_dire.xml" value="0.25" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_black_history.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_customed.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_delivery.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_drive_history.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_feed_back.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_feedback.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_new.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_new_orders.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_order_approved.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_order_history.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_order_yes.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_ready_ship.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_rejected_pay.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_ship_history.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_shipping.xml" value="0.25" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_specied_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_specied_ship.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_specified_history.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_specified_order.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/activity_supp_pay.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/cart_edit.xml" value="0.271875" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/carting.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/feedback.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/nice_recipt.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/qty_edit.xml" value="0.271875" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/reply_see.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/layout/timer.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MWANGI/AndroidStudioProjects/PerimeterGates/app/src/main/res/menu/logg.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

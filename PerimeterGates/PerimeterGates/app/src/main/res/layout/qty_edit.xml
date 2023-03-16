@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2sp"
+    android:background="#2FB126">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#fff"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/myEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="qty"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/ready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_toEndOf="@+id/myEdit">
+
+            <ImageView
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" />
+
+            <ImageView
+                android:id="@+id/btnMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnAdd"
+                android:src="@drawable/less" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5sp"
+            android:layout_toEndOf="@+id/ready"
+            android:background="@null"
+            android:text="Save"
+            android:textColor="#3FBD09"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_toEndOf="@+id/btnSave"
+            android:background="@null"
+            android:text="close" />
+    </RelativeLayout>
+</RelativeLayout>

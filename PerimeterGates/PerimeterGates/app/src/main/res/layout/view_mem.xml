@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/textQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myImage"
+        android:layout_marginTop="20sp"
+        android:hint="Quantity. " />
+
+    <EditText
+        android:id="@+id/enterQty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myImage"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/textQty"
+        android:hint="quantity" />
+
+    <TextView
+        android:id="@+id/major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterQty"
+        android:layout_marginTop="20sp"
+        android:hint="UnitPrice KSHs. " />
+
+    <EditText
+        android:id="@+id/enterPric"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterQty"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/major"
+        android:hint="unit price"
+        android:inputType="numberDecimal"
+        android:maxLength="6" />
+
+</RelativeLayout>

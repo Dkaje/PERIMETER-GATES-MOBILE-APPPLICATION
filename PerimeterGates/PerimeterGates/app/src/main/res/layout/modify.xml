@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:layout_marginEnd="5sp"
+    android:layout_marginRight="5sp"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/theProduct"
+            android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="10sp" />
+
+        <TextView
+            android:id="@+id/appPName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/theProduct"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:text="productName"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appPName"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:text="Price"
+            android:textColor="#04268C"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appPrice"
+            android:text="Click to modify "
+            android:textColor="#031FBD"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+</LinearLayout>

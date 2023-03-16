@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/mpesa"
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:hint="MPESA CODE"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mpesa"
+                android:background="@null"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10sp"
+                android:text="Submit" />
+            <Button
+                android:id="@+id/btnCan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mpesa"
+                android:background="@null"
+                android:textStyle="bold"
+                android:layout_toStartOf="@+id/btnSubmit"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="10sp"
+                android:text="close" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

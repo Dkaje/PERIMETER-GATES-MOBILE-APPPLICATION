@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tKing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="50dp"
+            android:id="@+id/cate"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CAT" />
+
+        <ImageView
+            android:id="@+id/theProduct"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:id="@+id/qty"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="QTY" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:id="@+id/unt"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UNIT" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tot"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TOTAL" />
+    </TableRow>
+
+</TableLayout>

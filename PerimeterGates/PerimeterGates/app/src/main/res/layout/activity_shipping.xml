@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inventory.Shipping">
+
+    <Button
+        android:id="@+id/inMake"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@color/secondary"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <android.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/btnPrint"
+        android:background="#fff"
+        app:queryHint="Search.." />
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/inMake"
+        android:text="print"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/relativeBoss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/inMake">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PERIMETER GATES\nperimetergates1@gmail.com \nExtra work contacts : 0720862935, 0714056910" />
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title">
+
+            <TableRow
+                android:background="@color/secondary"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="CUSTOMER"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="LOCATION"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PAYMENT"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/listedOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </RelativeLayout>
+</RelativeLayout>

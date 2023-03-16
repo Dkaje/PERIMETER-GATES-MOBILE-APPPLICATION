@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/more"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/prof"
+                android:icon="@drawable/prof"
+                android:title="Profile" />
+            <item
+                android:id="@+id/logger"
+                android:icon="@drawable/logger"
+                android:title="Log out" />
+            <item
+                android:id="@+id/myCart"
+                android:icon="@drawable/mycart"
+                android:title="Cart" />
+            <item
+                android:id="@+id/myPayee"
+                android:icon="@drawable/payee"
+                android:title="Payment" />
+            <item
+                android:id="@+id/mySpeci"
+                android:icon="@drawable/custo"
+                android:title="Custom Order" />
+           <item
+                android:id="@+id/myReceipt"
+                android:icon="@drawable/receipt"
+                android:title="Report" />
+            <item
+                android:id="@+id/myDelivery"
+                android:icon="@drawable/delive"
+                android:title="Delivery" />
+            <item
+                android:id="@+id/myFeed"
+                android:icon="@drawable/feed"
+                android:title="CustomDelivery" />
+            <item
+                android:id="@+id/myRate"
+                android:icon="@drawable/rate"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>

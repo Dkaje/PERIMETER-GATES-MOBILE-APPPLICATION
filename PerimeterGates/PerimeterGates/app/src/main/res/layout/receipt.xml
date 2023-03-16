@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titled"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ttile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PERIMETER GATES\nperimetergates1@gmail.com \nExtra work contacts : 0720862935, 0714056910" />
+
+    <TextView
+        android:id="@+id/myTexter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttile"
+        android:text="profile"/>
+
+            <HorizontalScrollView
+                android:id="@+id/imenti"
+                android:layout_below="@+id/myTexter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/tKing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:maxWidth="79dp"
+                                android:text="ITEM" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:maxWidth="49dp"
+                                android:text="DESCRIPTION" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="AMOUNT" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <ListView
+                        android:id="@+id/listerS"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginEnd="5sp"
+                        android:layout_marginBottom="5sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/shipper"
+                android:layout_below="@+id/imenti"
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content"
+                android:text="Ship" />
+</RelativeLayout>
